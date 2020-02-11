@@ -1,4 +1,4 @@
-# mdb-stitch-archive-atlas-to-s3
+# [MongoDB] Stitch Function for Archiving from Atlas to AWS S3
 Stitch function for archiving data from Atlas to AWS S3. It queries an Atlas cluster for to-be-archived documents, stores the result in S3 and then removes the documents from the Atlas cluster.
 
 Warning

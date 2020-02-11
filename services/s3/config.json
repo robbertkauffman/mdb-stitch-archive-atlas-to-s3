@@ -1,0 +1,11 @@
+{
+    "name": "s3",
+    "type": "aws",
+    "config": {
+        "accessKeyId": "AKIAJ3GRNIMHQ64QGKFQ"
+    },
+    "secret_config": {
+        "secretAccessKey": "aws_secret"
+    },
+    "version": 1
+}

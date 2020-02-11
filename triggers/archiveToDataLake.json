@@ -1,0 +1,9 @@
+{
+    "name": "archiveToDataLake",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */24 * * *"
+    },
+    "function_name": "archiveToDataLake",
+    "disabled": false
+}

@@ -71,7 +71,7 @@ async function nextDocumentsFromCursor(cursor, limit) {
 function storeInS3(jsonObj, bucketName, fileName, fileType) {
   fileName = fileName + " " + getFormattedDate();
   // Serialize JSON object
-  const jsonBody = JSON.stringify(jsonObj);
+  const jsonBody = EJSON.stringify(jsonObj);
   // Instantiate an S3 service client
   const s3Service = context.services.get('s3').s3('us-east-1');
   // Put the object in S3
